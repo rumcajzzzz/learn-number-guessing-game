@@ -281,3 +281,7 @@ git log --oneline
 git status
 git add number_guess.sh
 git commit -m "fix: removing echo of random number, final touch"
+git status
+git status
+git log --oneline
+pg_dump -cC --inserts -U freecodecamp number_guess > number_guess.sql
